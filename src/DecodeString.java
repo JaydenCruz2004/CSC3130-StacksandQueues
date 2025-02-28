@@ -8,7 +8,7 @@ public class DecodeString {
         int currNum = 0;
 
         for (char c : s.toCharArray()) {
-            if (Character.isDigit(c)) {
+            if (c >= '0' && c <= '9') {
                 currNum = currNum * 10 + (c - '0');
             } else if (c == '[') {
                 stackStr.push(currStr.toString());
