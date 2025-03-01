@@ -15,6 +15,10 @@ public class Main {
         System.out.println(DecodeString.decodeString("3[a2[c]]"));
         System.out.println(DecodeString.decodeString("2[abc]3[cd]ef"));
 
+        //Question 6: (code) Infix to postfix [10 points]
+        System.out.println("\nQuestion 6: Infix to postfix");
+        System.out.println(InfixtoPostfix.infixToPostfix("a+b*(c^d-e)^(f+g*h)-i"));
+
 
     }
 }
